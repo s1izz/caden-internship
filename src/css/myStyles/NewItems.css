@@ -1,0 +1,11 @@
+.skeleton__box {
+    height: 350px;
+}
+
+.skeleton__text--one {
+    margin: 10px 0 0 0;
+}
+
+.skeleton__text--two {
+    margin-top: 2px;
+}
