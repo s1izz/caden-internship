@@ -1,0 +1,26 @@
+.skeleton__pp--two {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.skeleton__text--five {
+    width: 200px;
+    height: 24px;
+}
+
+.skeleton__text--six {
+    width: 100px;
+    height: 16px;
+    margin: 12px 0;
+}
+
+.skeleton__text--seven {
+    width: 200px;
+    height: 16px;
+}
+
+.skeleton__box--two {
+    width: 150px;
+    height: 40px;
+}
