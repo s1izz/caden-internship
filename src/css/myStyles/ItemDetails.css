@@ -1,0 +1,31 @@
+.skeleton__box--three {
+    width: 100%;
+    height: 100%;
+}
+
+.skeleton__text--eight {
+    width: 300px;
+    height: 40px; 
+}
+
+.skeleton__box--four {
+    width: 80px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.skeleton__text--nine {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.skeleton__text--ten {
+    width: 125px;
+    height: 20px;
+}
+
+.skeleton__text--eleven {
+    width: 75px;
+    height: 20px;
+}
