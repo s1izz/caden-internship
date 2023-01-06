@@ -6,6 +6,10 @@ import { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const HotCollections = () => {
   const [collections, setCollections] = useState([]);
@@ -58,7 +62,7 @@ const HotCollections = () => {
   return (
     <section id="section-collections" className="no-bottom">
       <div className="container">
-        <div className="row">
+        <div className="row" data-aos="fade-in" data-aos-once="true">
           <div className="col-lg-12">
             <div className="text-center">
               <h2>Hot Collections</h2>
