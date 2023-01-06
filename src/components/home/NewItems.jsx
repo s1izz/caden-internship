@@ -2,13 +2,15 @@ import "../../css/myStyles/NewItems.css";
 import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NftItem from "../myComponents/NftItem";
 import NftItemLoading from "../myComponents/NftItemLoading";
-import Countdown from "../myComponents/Countdown";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const NewItems = () => {
   const [items, setItems] = useState([]);
@@ -61,7 +63,7 @@ const NewItems = () => {
   return (
     <section id="section-items" className="no-bottom">
       <div className="container">
-        <div className="row">
+        <div className="row" data-aos="fade-in" data-aos-once="true">
           <div className="col-lg-12">
             <div className="text-center">
               <h2>New Items</h2>
